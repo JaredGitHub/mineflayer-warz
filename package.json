@@ -1,0 +1,21 @@
+{
+  "name": "mineflayer-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot for testing plugins",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nxg-org/mineflayer-custom-pvp": "1.7.5",
+    "mineflayer": "^4.27.0",
+    "mineflayer-pvp": "^1.3.2",
+    "vec3": "^0.1.10"
+  },
+  "resolutions": {
+    "mineflayer": "4.27.0"
+  }
+}
